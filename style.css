@@ -1,0 +1,46 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+#main {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0;
+}
+
+
+
+#employees {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.employee {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid white;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
